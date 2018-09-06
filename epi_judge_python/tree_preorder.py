@@ -3,7 +3,19 @@ from test_framework import generic_test
 
 def preorder_traversal(tree):
     # TODO - you fill in here.
-    return []
+    path, result = [tree], []
+    while path:
+        curr = path.pop()
+
+
+
+    # Recursive solution
+    # result = []
+    # if tree:
+    #     result.append(tree.data)
+    #     result.extend(preorder_traversal(tree.left))
+    #     result.extend(preorder_traversal(tree.right))
+    # return result
 
 
 if __name__ == '__main__':
