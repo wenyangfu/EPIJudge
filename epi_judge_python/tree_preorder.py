@@ -1,6 +1,7 @@
 from test_framework import generic_test
 
 
+# Root -> Left -> Right
 def preorder_traversal(tree):
     # TODO: Iterative solution
 
